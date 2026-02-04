@@ -110,7 +110,7 @@ function showMessage(response) {
 
     // Create an audio element to play the sound
     const audioElement = document.createElement("audio");
-    audioElement.src = "./Minions Cheering.mp4"; // Source of the sound
+    audioElement.src = "./Minions.mp4"; // Source of the sound
     audioElement.preload = "auto"; // Preloading the audio
     audioElement.play() // Play the sound
       .catch(e => console.error("Audio playback failed:", e)); // Catch and log playback errors
@@ -120,7 +120,7 @@ function showMessage(response) {
     yesMessage.textContent = "See you on the 14th my princess";
     yesMessage.style.display = "block";
     yesMessage.style.fontStyle = "normal";
-    document.getElementsByClassName("image")[0].src = "images/dance.gif";
+    document.getElementsByClassName("image")[0].src = "dance.gif";
 
     // Remove the "Yes" button
     document.getElementById("yesButton").remove();
