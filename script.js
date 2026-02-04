@@ -50,7 +50,7 @@ function showMessage(response) {
     noButton.style.position = "absolute";
 
     // Change the image source to "gun.gif"
-    document.getElementsByClassName("image")[0].src = "images/gun.gif";
+    document.getElementsByClassName("image")[0].src = "gun.gif";
 
     // Generate random coordinates within the visible container
     const randomX = Math.max(0, Math.floor(Math.random() * maxWidth));
