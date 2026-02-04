@@ -6,7 +6,7 @@ body{
   justify-content: space-evenly;
   height: 100vh;
   margin: 0;
-  background: url("images/image.jpeg") repeat;
+  background: url("image.jpeg") repeat;
   font-size: 35px;
   color: rgb(255, 0, 174);
 }
